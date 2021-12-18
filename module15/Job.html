@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaJam Job Application</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>JavaJam Coffee Joint</h1>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://chhota07.github.io/CIS310-2021-fall/module13/Home.html"
+              >Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://chhota07.github.io/CIS310-2021-fall/module13/Music.html"
+              >Music
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://chhota07.github.io/CIS310-2021-fall/module13/Menu.html"
+              >Menu
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://chhota07.github.io/CIS310-2021-fall/module13/Jobs.html"
+              >Jobs
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <img class="img-chairs" src="herojobs.jpg" alt="chairs" />
+        <h2>Jobs at JavaJam</h2>
+        <p>
+          “Want to work at JavaJam? Fill out the form below to start your
+          application.”
+        </p>
+        <p>“Required fields are marked with an asterisk (*).”
+        </p>
+        <form action="javajam8.php" method="post">
+          <table>
+            <tr style="background-color:#FEF6C2;"></tr>
+              <td><label>*Name:</label></td>
+              <td><input type="text" name="myName" required /></td> 
+            </tr>
+
+            <tr style="background-color: #fef6c2">
+              <td><label>*Email:</label></td>
+              <td><input type="email" name="myEmail" required /></td>
+            </tr>
+
+            <tr style="background-color: #fef6c2">
+              <td><label>*Experience:</label></td>
+              <td><textarea name="myExperience" required></textarea></td>
+            </tr>
+
+            <tr style="background-color: #fef6c2">
+              <td><input type="submit" value="Apply Now" name="mySubmit" /></td>
+            </tr>
+          </table>
+        </form>
+      </main>
+      <footer>
+        Copyright &copy; 2021 JavaJam Coffee House<br />
+        <a href="mailto">abdulrehmanismail00@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>
