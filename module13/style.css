@@ -164,6 +164,10 @@ table {
   border-spacing: 0px;
   background-color: #fcebb6;
 }
-td, th{
+td,
+th {
   padding: 10px;
+}
+tr:nth-of-type(odd) {
+  background-color: #d2b48c;
 }

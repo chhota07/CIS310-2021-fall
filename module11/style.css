@@ -4,13 +4,13 @@
   grid-template-rows: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
   grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
   grid-template-areas:
-    "redColor . . . . . ."
-    "orangeColor orangeColor . . . . . ."
-    "yellowColor yellowColor yellowColor . . . . ."
-    "greenColor greenColor greenColor greenColor . . . ."
-    "cyanColor cyanColor cyanColor cyanColor cyanColor . . ."
-    "blueColor blueColor blueColor blueColor blueColor blueColor . ."
-    "violetColor violetColor violetColor violetColor violetColor violetColor violetColor ."
+    "redColor "
+    "orangeColor orangeColor "
+    "yellowColor yellowColor yellowColor "
+    "greenColor greenColor greenColor greenColor "
+    "cyanColor cyanColor cyanColor cyanColor cyanColor "
+    "blueColor blueColor blueColor blueColor blueColor blueColor "
+    "violetColor violetColor violetColor violetColor violetColor violetColor violetColor "
     "purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor purpleColor";
 }
 .black {
